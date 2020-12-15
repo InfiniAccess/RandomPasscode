@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Random Passcode Generator";
+}
+
+<div class="text-center">
+    <h1>Random Passcode (Passcode #@ViewBag.Count)</h1>
+
+    <h1 class="bg-dark text-white py-2">@ViewBag.Passcode</h1>
+    <a href="/Generate" class="btn btn-danger">Generate</a>
+    <a href="/Reset" class="btn btn-danger">Reset</a>
+</div>
